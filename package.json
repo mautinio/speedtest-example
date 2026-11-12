@@ -1,0 +1,21 @@
+{
+  "name": "speedtest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Консольный замер скорости скачивания: 10 последовательных запросов к указанному URL",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "tsx --test \"test/*.test.ts\"",
+    "typecheck": "tsc"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
